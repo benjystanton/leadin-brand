@@ -1,0 +1,31 @@
+/* Typography */
+
+body {
+  color: $colour-dark-grey;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
+}
+
+/* Headings */
+
+.heading--xlarge {
+  font-size: 48px;
+}
+
+.heading--large {
+  font-size: 36px;
+}
+
+.heading--medium {
+  font-size: 24px;
+}
+
+.heading--white {
+  color: $colour-white;
+}
+
+/* Lists */
+
+ul {
+  padding-left: 0;
+}
