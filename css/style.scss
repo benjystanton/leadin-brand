@@ -3,6 +3,37 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Colours */
+
+$colour-orange: #F8981D;
+$colour-white: #FFFFFF;
+
+/* Typography */
+
+/* Headings */
+
+.heading--xlarge {
+  font-size: 48px;
+}
+
+.heading--large {
+  font-size: 36px;
+}
+
+.heading--medium {
+  font-size: 24px;
+}
+
+.heading--white {
+  color: $colour-white;
+}
+
+/* Typography */
+
+ul {
+  padding-left: 0;
+}
+
 /* Header */
 
 .header {
@@ -15,8 +46,7 @@ body {
   padding: 1em 0;
 }
 
-.header__page-title {
-  color: #ffffff;
+.header__heading {
   margin: 0;
 }
 
@@ -25,12 +55,6 @@ body {
 .content {
   margin: 0 auto;
   max-width: 960px;
-}
-
-/* Lists */
-
-ul {
-  padding-left: 0;
 }
 
 /* Colour Swatches */
@@ -55,7 +79,7 @@ ul {
 }
 
 .swatch__circle--orange {
-  background-color: #F8981D;
+  background-color: $colour-orange;
 }
 
 .swatch__circle--light-grey {
