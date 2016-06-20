@@ -68,6 +68,19 @@ body {
 .heading--white {
   color: #FFFFFF; }
 
+/* Weights */
+.font-weight--light {
+  font-weight: 300; }
+
+.font-weight--regular {
+  font-weight: 400; }
+
+.font-weight--semi-bold {
+  font-weight: 600; }
+
+.font-weight--bold {
+  font-weight: 700; }
+
 /* Lists */
 ul {
   padding-left: 0; }
@@ -85,19 +98,20 @@ ul {
 /* Swatches */
 /* =========================================================================*/
 .swatch {
+  text-align: center;
+  width: 100px;
   display: inline-block;
-  padding-right: 1em; }
-
-.swatch__heading {
-  margin-bottom: 0.5em; }
+  margin-right: 1em; }
 
 .swatch__circle {
-  width: 10em;
-  height: 10em;
+  border-radius: 100%;
+  width: 3em;
+  height: 3em;
   margin: 0 auto; }
 
-.swatch__value {
-  margin-top: 0.5em; }
+.example > .swatch__circle {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
 
 /* Example */
 /* =========================================================================*/
@@ -107,6 +121,7 @@ ul {
   margin-bottom: 1em; }
 
 .example > * {
-  margin: 0; }
+  margin-top: 0;
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,17 +1,19 @@
 /* Swatches */
 /* =========================================================================*/
 .swatch {
+    text-align: center;
+    width: 100px;
     display: inline-block;
-    padding-right: 1em;
-}
-.swatch__heading {
-    margin-bottom: 0.5em;
+    margin-right: 1em;
 }
 .swatch__circle {
-    width: 10em;
-    height: 10em;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
     margin: 0 auto;
 }
-.swatch__value {
+// Overide the standard zero margin on all children of example
+.example > .swatch__circle {
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
