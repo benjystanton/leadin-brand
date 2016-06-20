@@ -1,28 +1,17 @@
 /* Swatches */
-
+/* =========================================================================*/
 .swatch {
-  display: inline-block;
-  padding-right: 1em;
+    display: inline-block;
+    padding-right: 1em;
 }
-
 .swatch__heading {
-  margin-bottom: .5em;
+    margin-bottom: 0.5em;
 }
-
 .swatch__circle {
-  width: 10em;
-  height: 10em;
-  margin: 0 auto;
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
 }
-
 .swatch__value {
-  margin-top: .5em;
-}
-
-.swatch__circle--orange {
-  background-color: $colour-orange;
-}
-
-.swatch__circle--light-grey {
-  background-color: $colour-light-grey;
+    margin-top: 0.5em;
 }

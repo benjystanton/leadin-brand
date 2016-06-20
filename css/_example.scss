@@ -1,0 +1,10 @@
+/* Example */
+/* =========================================================================*/
+.example {
+    border: 1px solid $colour-medium-grey;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.example > * {
+    margin: 0;
+}

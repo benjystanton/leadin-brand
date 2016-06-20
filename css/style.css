@@ -1,41 +1,69 @@
 /* Colours */
-/* Swatches */
-.swatch {
-  display: inline-block;
-  padding-right: 1em; }
-
-.swatch__heading {
-  margin-bottom: .5em; }
-
-.swatch__circle {
-  width: 10em;
-  height: 10em;
-  margin: 0 auto; }
-
-.swatch__value {
-  margin-top: .5em; }
-
-.swatch__circle--orange {
+/* =========================================================================*/
+/* Colour variables */
+/* Background colour classes */
+.background--orange {
   background-color: #F8981D; }
 
-.swatch__circle--light-grey {
+.background--light-grey {
   background-color: #EBEEEE; }
 
+.background--medium-grey {
+  background-color: #90999C; }
+
+.background--dark-grey {
+  background-color: #314249; }
+
+.background--pink {
+  background-color: #F16183; }
+
+.background--pink {
+  background-color: #F16183; }
+
+.background--peach {
+  background-color: #FE9F82; }
+
+.background--yellow {
+  background-color: #EACD86; }
+
+.background--green {
+  background-color: #5ED789; }
+
+.background--turquoise {
+  background-color: #6AD8CB; }
+
+.background--blue {
+  background-color: #3870AD; }
+
+.background--purple {
+  background-color: #9377DF; }
+
+.background--warm-grey {
+  background-color: #898681; }
+
 /* Typography */
+/* =========================================================================*/
 body {
   color: #314249;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 100%; }
+  font-size: 18px; }
 
 /* Headings */
 .heading--xlarge {
-  font-size: 48px; }
+  font-size: 48px;
+  font-weight: bold; }
 
 .heading--large {
-  font-size: 36px; }
+  font-size: 36px;
+  font-weight: bold; }
 
 .heading--medium {
-  font-size: 24px; }
+  font-size: 24px;
+  font-weight: bold; }
+
+.heading--small {
+  font-size: 18px;
+  font-weight: bold; }
 
 .heading--white {
   color: #FFFFFF; }
@@ -44,21 +72,41 @@ body {
 ul {
   padding-left: 0; }
 
-/* Header */
-.header {
-  background-color: #314249; }
-
-.header__wrapper {
+/* Layout */
+/* =========================================================================*/
+.container {
   margin: 0 auto;
-  max-width: 960px;
-  padding: 1em 0; }
+  max-width: 960px; }
 
-.header__heading {
-  margin: 0; }
-
-/* Main Content */
 .content {
   margin: 0 auto;
   max-width: 960px; }
+
+/* Swatches */
+/* =========================================================================*/
+.swatch {
+  display: inline-block;
+  padding-right: 1em; }
+
+.swatch__heading {
+  margin-bottom: 0.5em; }
+
+.swatch__circle {
+  width: 10em;
+  height: 10em;
+  margin: 0 auto; }
+
+.swatch__value {
+  margin-top: 0.5em; }
+
+/* Example */
+/* =========================================================================*/
+.example {
+  border: 1px solid #90999C;
+  padding: 1em;
+  margin-bottom: 1em; }
+
+.example > * {
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

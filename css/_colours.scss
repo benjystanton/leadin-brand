@@ -1,5 +1,6 @@
 /* Colours */
-
+/* =========================================================================*/
+/* Colour variables */
 $colour-white: #FFFFFF;
 $colour-orange: #F8981D;
 $colour-light-grey: #EBEEEE;
@@ -13,3 +14,43 @@ $colour-turquoise: #6AD8CB;
 $colour-blue: #3870AD;
 $colour-purple: #9377DF;
 $colour-warm-grey: #898681;
+/* Background colour classes */
+.background--orange {
+    background-color: $colour-orange;
+}
+.background--light-grey {
+    background-color: $colour-light-grey;
+}
+.background--medium-grey {
+    background-color: $colour-medium-grey;
+}
+.background--dark-grey {
+    background-color: $colour-dark-grey;
+}
+.background--pink {
+    background-color: $colour-pink;
+}
+.background--pink {
+    background-color: $colour-pink;
+}
+.background--peach {
+    background-color: $colour-peach;
+}
+.background--yellow {
+    background-color: $colour-yellow;
+}
+.background--green {
+    background-color: $colour-green;
+}
+.background--turquoise {
+    background-color: $colour-turquoise;
+}
+.background--blue {
+    background-color: $colour-blue;
+}
+.background--purple {
+    background-color: $colour-purple;
+}
+.background--warm-grey {
+    background-color: $colour-warm-grey;
+}
