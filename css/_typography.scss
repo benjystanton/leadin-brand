@@ -3,7 +3,10 @@
 body {
     color: $colour-dark-grey;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 100%;
+    @media screen and (min-width: $break-large) {
+      font-size: 120%;
+    }
 }
 /* Headings */
 .heading--xlarge {
