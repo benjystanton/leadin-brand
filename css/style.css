@@ -91,7 +91,7 @@ ul {
 
 /* Links */
 a {
-  color: #3870AD; }
+  color: #2c5786; }
 
 /* Layout */
 /* =========================================================================*/
@@ -154,7 +154,12 @@ a {
 .example {
   border: 1px solid #90999C;
   padding: 0.5em;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  /* Stop long words breaking out https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto; }
 
 .example > * {
   margin-top: 0;
