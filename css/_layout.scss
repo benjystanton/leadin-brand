@@ -26,6 +26,14 @@
         width: 16.6666667%;
     }
 }
+/* Container */
+.container {
+  padding-top:1em;
+  padding-bottom: 3em;
+}
+.container--border {
+  border-bottom: 1px solid $colour-light-grey;
+}
 /* Border box hack */
 *,
 *:after,
