@@ -68,9 +68,6 @@ body {
   font-size: 18px;
   font-weight: bold; }
 
-.heading--white {
-  color: #FFFFFF; }
-
 /* Weights */
 .font-weight--light {
   font-weight: 300; }
@@ -84,9 +81,17 @@ body {
 .font-weight--bold {
   font-weight: 700; }
 
+/* Colours */
+.font-color--white {
+  color: #FFFFFF; }
+
 /* Lists */
 ul {
   padding-left: 0; }
+
+/* Links */
+a {
+  color: #3870AD; }
 
 /* Layout */
 /* =========================================================================*/
@@ -114,6 +119,14 @@ ul {
 
   .column.sixth {
     width: 16.6666667%; } }
+/* Container */
+.container {
+  padding-top: 1em;
+  padding-bottom: 3em; }
+
+.container--border {
+  border-bottom: 1px solid #EBEEEE; }
+
 /* Border box hack */
 *,
 *:after,
@@ -131,6 +144,22 @@ ul {
 .clearfix:after {
   clear: both; }
 
+/* Header */
+/* =========================================================================*/
+.header__title {
+  margin-bottom: 0; }
+
+/* Example */
+/* =========================================================================*/
+.example {
+  border: 1px solid #90999C;
+  padding: 0.5em;
+  margin-bottom: 1em; }
+
+.example > * {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 /* Swatches */
 /* =========================================================================*/
 .swatch {
@@ -145,16 +174,5 @@ ul {
 .example > .swatch__circle {
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
-
-/* Example */
-/* =========================================================================*/
-.example {
-  border: 1px solid #90999C;
-  padding: 0.5em;
-  margin-bottom: 1em; }
-
-.example > * {
-  margin-top: 0;
-  margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
