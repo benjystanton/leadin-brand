@@ -85,6 +85,10 @@ body {
 .font-weight--bold {
   font-weight: 700; }
 
+/* Padding */
+.font--padding-bottom {
+  padding-bottom: 2em; }
+
 /* Colours */
 .font-color--white {
   color: #FFFFFF; }
@@ -118,6 +122,9 @@ a {
 
   .column.half {
     width: 50%; }
+
+  .column.third {
+    width: 33.3333333%; }
 
   .column.quarter {
     width: 25%; }
@@ -156,6 +163,30 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
+/* Background Images */
+/* =========================================================================*/
+.background-image {
+  height: 20em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.background-image--windmills {
+  background-image: url("/img/windmills.png"); }
+
+.background-image--multiply {
+  background-color: #EACD86;
+  background-blend-mode: multiply; }
+
+.background-image--grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.background--multiply {
+  z-index: 100;
+  top: -20em;
+  mix-blend-mode: multiply; }
+
 /* Header */
 /* =========================================================================*/
 .header__title {
@@ -177,6 +208,14 @@ img {
   margin-top: 0;
   margin-bottom: 0; }
 
+.example--no-border {
+  border: none;
+  padding: 0; }
+
+.example__caption {
+  text-align: center;
+  padding: 1em 0; }
+
 /* Swatches */
 /* =========================================================================*/
 .swatch {
@@ -191,5 +230,30 @@ img {
 .example > .swatch__circle {
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
+
+/* Filterz */
+/* =========================================================================*/
+.filter {
+  position: relative;
+  height: 20em; }
+
+.filter__layer {
+  position: absolute;
+  display: block;
+  height: 20em;
+  width: 100%; }
+
+.filter__layer--multiply {
+  mix-blend-mode: multiply; }
+
+.filter__layer--grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.filter__layer--windmill {
+  background-image: url("/img/windmills.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 /*# sourceMappingURL=style.css.map */

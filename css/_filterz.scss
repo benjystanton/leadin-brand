@@ -1,0 +1,25 @@
+/* Filterz */
+/* =========================================================================*/
+.filter {
+  position: relative;
+  height:20em;
+}
+.filter__layer {
+  position: absolute;
+  display: block;
+  height: 20em;
+  width: 100%;
+}
+.filter__layer--multiply {
+  mix-blend-mode: multiply;
+}
+.filter__layer--grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.filter__layer--windmill {
+  background-image: url("/img/windmills.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}

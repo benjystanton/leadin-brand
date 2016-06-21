@@ -1,0 +1,24 @@
+/* Background Images */
+/* =========================================================================*/
+.background-image {  
+  height:20em;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.background-image--windmills {
+  background-image: url("/img/windmills.png");
+}
+.background-image--multiply {
+  background-color: $colour-yellow;
+  background-blend-mode: multiply;
+}
+.background-image--grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.background--multiply {
+  z-index: 100;
+  top: -20em;
+  mix-blend-mode: multiply;
+}
