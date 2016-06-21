@@ -3,7 +3,10 @@
 /* Grid */
 .row {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 400px;
+    @media screen and (min-width: $break-medium) {
+      max-width: 900px;
+    }
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
@@ -12,15 +15,13 @@
         float: left;
         padding-left: 0.5em;
         padding-right: 0.5em;
-    }
-    .column:first-child {
-        padding-left: 0;
-    }
-    .column:last-child {
-        padding-right: 0;
+        width: 100%;
     }
     .column.half {
         width: 50%;
+    }
+    .column.quarter {
+        width: 25%;
     }
     .column.sixth {
         width: 16.6666667%;
