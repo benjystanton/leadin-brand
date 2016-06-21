@@ -251,7 +251,7 @@ img {
   filter: grayscale(100%); }
 
 .filter__layer--windmill {
-  background-image: url("/img/windmills.png");
+  background-image: url("../img/windmills.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
