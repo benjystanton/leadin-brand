@@ -25,9 +25,6 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
-.heading--white {
-    color: $colour-white;
-}
 /* Weights */
 .font-weight--light {
   font-weight: 300;
@@ -41,7 +38,15 @@ body {
 .font-weight--bold {
   font-weight: 700;
 }
+/* Colours */
+.font-color--white {
+  color: $colour-white
+}
 /* Lists */
 ul {
     padding-left: 0;
+}
+/* Links */
+a {
+  color: $colour-blue;
 }
