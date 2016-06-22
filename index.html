@@ -17,10 +17,11 @@
 <body>
 
     <header role="banner">
-        <div class="container header background--dark-grey">
+        <div class="container header background--white">
             <div class="row clearfix">
                 <div class="column">
-                    <h1 class="heading--xlarge header__title font-color--white font-weight--light">Leadin Brand Book</h1>
+                  <img class="logo" src="img/site-logo-orange.png" alt="">
+                  <p class="visuallyhidden">Leadin</p>
                 </div>
                 <!-- End of column -->
             </div>
@@ -31,16 +32,12 @@
 
     <main class="content" role="main">
         <section>
-            <div class="container background--light-grey">
+            <div class="container text--align-center background--light-grey">
                 <div class="row clearfix">
                     <div class="column">
-                        <h2 class="heading--large">Introduction</h2>
+                        <h1 class="heading--xlarge">Leadin Brand Book</h1>
                         <p>A brand book and front-end style guide for Leadin.</p>
                         <p><a href="files/leadin_brand_book_official.pdf">Download Leadin Brand Book (PDF, 1.8MB)</a></p>
-                        <h3>Contents</h3>
-                        <ul>
-                          <li>Coming soon</li>
-                        </ul>
                     </div>
                     <!-- End of column -->
                 </div>
@@ -52,7 +49,7 @@
             <div class="container container--border">
                 <div class="row clearfix">
                     <div class="column">
-                        <h2 class="heading--large">Logo</h2>
+                        <h2 id="logo" class="heading--large">Logo</h2>
                     </div>
                     <!-- End of column -->
                 </div>
@@ -95,7 +92,7 @@
             <div class="container container--border">
                 <div class="row clearfix">
                     <div class="column">
-                        <h2 class="heading--large">Typography</h2>
+                        <h2 id="typography" class="heading--large">Typography</h2>
                         <p>The Leadin font is Source Sans Pro.</p>
                         <p><a href="https://www.google.com/fonts/specimen/Source+Sans+Pro">Get Source Sans Pro from Google Fonts</a>.</p>
                         <div class="example">
@@ -191,7 +188,7 @@
             <div class="container container--border">
                 <div class="row clearfix">
                     <div class="column">
-                        <h2 class="heading--large">Colours</h2>
+                        <h2 id="colours" class="heading--large">Colours</h2>
                     </div>
                     <!-- End of exacolumnmple -->
                 </div>
@@ -317,8 +314,8 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column">
-                        <h2 class="heading--large">Images</h2>
-                        <p class="font--padding-bottom">Photos and images should be colourful, professional, elegant , clear, tells a story and humane.</p>
+                        <h2 id="images" class="heading--large">Images</h2>
+                        <p class="padding-bottom--medium">Photos and images should be colourful, professional, elegant , clear, tell a story and be humane.</p>
                     </div>
                     <!-- End of column -->
                 </div>
@@ -326,9 +323,10 @@
                 <div class="row clearfix">
                     <div class="column third">
                         <div class="example example--no-border">
-                          <div class="filter">
-                              <img class="filter__image" src="img/windmills.png" alt="A modern windmill in a field, against a large blue sky">
-                          </div>
+                            <div class="filter">
+                                <img class="filter__image" src="img/windmills.png" alt="A modern windmill in a field, against a large blue sky">
+                            </div>
+                            <!-- End of filter -->
                             <p class="example__caption">Preferred style: clean, levels/curves adjusted.</p>
                         </div>
                         <!-- End of example -->
@@ -336,19 +334,21 @@
                     <!-- End of column -->
                     <div class="column third">
                         <div class="example example--no-border">
-                          <div class="filter background--yellow">
-                              <img class="filter__image--multiply" src="img/windmills.png" alt="A modern windmill in a field, against a large blue sky">
-                          </div>
+                            <div class="filter background--yellow">
+                                <img class="filter__image--multiply" src="img/windmills.png" alt="A modern windmill in a field, against a large blue sky">
+                            </div>
+                            <!-- End of filter -->
                             <p class="example__caption">Alternative style A: with multiply color layer.</p>
-                        </div><!-- End of layerz -->
+                        </div>
                         <!-- End of example -->
                     </div>
                     <!-- End of column -->
                     <div class="column third">
                         <div class="example example--no-border">
-                          <div class="filter background--yellow">
-                              <img class="filter__image--multiply filter__image--desaturate" src="img/windmills.png" alt="A modern windmill in a field, against a large blue sky">
-                          </div>
+                            <div class="filter background--yellow">
+                                <img class="filter__image--multiply filter__image--desaturate" src="img/windmills.png" alt="A modern windmill in a field, against a large blue sky">
+                            </div>
+                            <!-- End of filter -->
                             <p class="example__caption">Alternative style B: with desaturate layer &amp; multiply color layer.</p>
                         </div>
                         <!-- End of example -->
@@ -361,10 +361,10 @@
         </section>
     </main>
     <footer role="contentinfo">
-        <div class="container background--light-grey">
+        <div class="container background--dark-grey text--align-center">
             <div class="row clearfix">
                 <div class="column">
-                    <p>© Leadin 2016</p>
+                    <p class="font-color--white margin-bottom--none">©2016</p>
                 </div>
                 <!-- End of column -->
             </div>
