@@ -54,10 +54,11 @@ body {
 /* Heading Font Size */
 .heading--xxlarge {
   font-size: 4em;
-  font-weight: bold; }
+  font-weight: 900;
+  line-height: 1; }
 
 .heading--xlarge {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold; }
 
 .heading--large {
@@ -126,6 +127,15 @@ a {
   @media screen and (min-width: 750px) {
     .row {
       max-width: none; } }
+
+.column--small {
+  float: left;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  width: 100%; }
+
+.column__half--small {
+  width: 50%; }
 
 @media screen and (min-width: 750px) {
   .column {
@@ -202,6 +212,18 @@ img {
   background-image: url("../img/icon-twitter-dark-grey.png");
   background-size: 100%; }
 
+.icon__linkedin-dark-grey {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/icon-linkedin-dark-grey.png");
+  background-size: 100%; }
+
+.icon__facebook-dark-grey {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/icon-facebook-dark-grey.png");
+  background-size: 100%; }
+
 /* Header */
 /* =========================================================================*/
 .header {
@@ -234,7 +256,6 @@ img {
   padding: 0; }
 
 .example__caption {
-  text-align: center;
   padding: 1em 0; }
 
 /* Swatches */

@@ -10,6 +10,15 @@
     padding-left: 1.5em;
     padding-right: 1.5em;
 }
+.column--small {
+    float: left;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 100%;
+}
+.column__half--small {
+    width: 50%;
+}
 @media screen and (min-width: $break-medium) {
     .column {
         float: left;
