@@ -121,11 +121,11 @@ a {
 .row {
   margin: 0 auto;
   max-width: 400px;
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
   @media screen and (min-width: 750px) {
     .row {
-      max-width: 1000px; } }
+      max-width: none; } }
 
 @media screen and (min-width: 750px) {
   .column {
@@ -134,16 +134,16 @@ a {
     padding-right: 0.5em;
     width: 100%; }
 
-  .column.half {
+  .half {
     width: 50%; }
 
-  .column.third {
+  .third {
     width: 33.3333333%; }
 
-  .column.quarter {
+  .quarter {
     width: 25%; }
 
-  .column.sixth {
+  .sixth {
     width: 16.6666667%; } }
 /* Container */
 .container {
