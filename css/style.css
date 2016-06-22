@@ -163,30 +163,6 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
-/* Background Images */
-/* =========================================================================*/
-.background-image {
-  height: 20em;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
-
-.background-image--windmills {
-  background-image: url("/img/windmills.png"); }
-
-.background-image--multiply {
-  background-color: #EACD86;
-  background-blend-mode: multiply; }
-
-.background-image--grayscale {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
-.background--multiply {
-  z-index: 100;
-  top: -20em;
-  mix-blend-mode: multiply; }
-
 /* Header */
 /* =========================================================================*/
 .header__title {
@@ -235,25 +211,13 @@ img {
 /* =========================================================================*/
 .filter {
   position: relative;
-  height: 20em; }
+  display: inline-block; }
 
-.filter__layer {
-  position: absolute;
-  display: block;
-  height: 20em;
-  width: 100%; }
+.filter__image--desaturate {
+  -webkit-filter: saturate(0%);
+  filter: saturate(0%); }
 
-.filter__layer--multiply {
+.filter__image--multiply {
   mix-blend-mode: multiply; }
-
-.filter__layer--grayscale {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
-.filter__layer--windmill {
-  background-image: url("../img/windmills.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
 
 /*# sourceMappingURL=style.css.map */
