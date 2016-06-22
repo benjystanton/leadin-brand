@@ -89,6 +89,9 @@ body {
 .text--align-center {
   text-align: center; }
 
+.text--align-right {
+  text-align: right; }
+
 /* Spacing */
 .margin-bottom--none {
   margin-bottom: 0; }
@@ -184,6 +187,20 @@ img {
   height: auto;
   max-width: 100%;
   vertical-align: middle; }
+
+/* Icons */
+/* =========================================================================*/
+.icon {
+  display: inline-block;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  vertical-align: middle; }
+
+.icon__twitter-dark-grey {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/icon-twitter-dark-grey.png");
+  background-size: 100%; }
 
 /* Header */
 /* =========================================================================*/
