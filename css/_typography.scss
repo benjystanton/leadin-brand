@@ -42,17 +42,28 @@ body {
 .font-weight--bold {
   font-weight: 700;
 }
-/* Padding */
-.font--padding-bottom {
+/* Alignment */
+.text--align-center {
+  text-align: center;
+}
+/* Spacing */
+.margin-bottom--none {
+  margin-bottom: 0;
+}
+.padding-bottom--medium {
   padding-bottom: 2em;
 }
 /* Colours */
 .font-color--white {
   color: $colour-white
 }
+.font-color--orange {
+  color: $colour-orange
+}
 /* Lists */
 ul {
     padding-left: 0;
+    list-style: none;
 }
 /* Links */
 a {
