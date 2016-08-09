@@ -17,9 +17,6 @@
 .background--pink {
   background-color: #F16183; }
 
-.background--pink {
-  background-color: #F16183; }
-
 .background--peach {
   background-color: #FE9F82; }
 
@@ -73,6 +70,13 @@ body {
   font-size: 1.1em;
   font-weight: bold; }
 
+/* Font Size */
+.font-size--medium {
+  font-size: 1.3em; }
+
+.font-size--small {
+  font-size: 1.1em; }
+
 /* Font Weights */
 .font-weight--light {
   font-weight: 300; }
@@ -107,6 +111,39 @@ body {
 .font-color--orange {
   color: #F8981D; }
 
+.font-color--light-grey {
+  color: #EBEEEE; }
+
+.font-color--medium-grey {
+  color: #90999C; }
+
+.font-color--dark-grey {
+  color: #314249; }
+
+.font-color--pink {
+  color: #F16183; }
+
+.font-color--peach {
+  color: #FE9F82; }
+
+.font-color--yellow {
+  color: #EACD86; }
+
+.font-color--green {
+  color: #5ED789; }
+
+.font-color--turquoise {
+  color: #6AD8CB; }
+
+.font-color--blue {
+  color: #3870AD; }
+
+.font-color--purple {
+  color: #9377DF; }
+
+.font-color--warm-grey {
+  color: #898681; }
+
 /* Lists */
 ul {
   padding-left: 0;
@@ -121,18 +158,8 @@ a {
 /* Grid */
 .row {
   margin: 0 auto;
-  max-width: 400px;
   padding-left: 1.5em;
   padding-right: 1.5em; }
-  @media screen and (min-width: 750px) {
-    .row {
-      max-width: none; } }
-
-.column--small {
-  float: left;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  width: 100%; }
 
 .column__half--small {
   width: 50%; }
@@ -228,6 +255,12 @@ img {
 /* =========================================================================*/
 .header {
   padding-top: 1.8em;
+  padding-bottom: 2em; }
+
+/* Footer */
+/* =========================================================================*/
+.footer {
+  padding-top: 2em;
   padding-bottom: 2em; }
 
 /* Logo */

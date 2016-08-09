@@ -30,6 +30,13 @@ body {
     font-size: 1.1em;
     font-weight: bold;
 }
+/* Font Size */
+.font-size--medium {
+    font-size: 1.3em;
+}
+.font-size--small {
+    font-size: 1.1em;
+}
 /* Font Weights */
 .font-weight--light {
   font-weight: 300;
@@ -63,6 +70,39 @@ body {
 }
 .font-color--orange {
   color: $colour-orange
+}
+.font-color--light-grey {
+  color: $colour-light-grey;
+}
+.font-color--medium-grey {
+  color: $colour-medium-grey;
+}
+.font-color--dark-grey {
+  color: $colour-dark-grey;
+}
+.font-color--pink {
+  color: $colour-pink;
+}
+.font-color--peach {
+  color: $colour-peach;
+}
+.font-color--yellow {
+  color: $colour-yellow;
+}
+.font-color--green {
+  color: $colour-green;
+}
+.font-color--turquoise {
+  color: $colour-turquoise;
+}
+.font-color--blue {
+  color: $colour-blue;
+}
+.font-color--purple {
+  color: $colour-purple;
+}
+.font-color--warm-grey {
+  color: $colour-warm-grey;
 }
 /* Lists */
 ul {
