@@ -3,37 +3,32 @@
 /* Grid */
 .row {
     margin: 0 auto;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
 }
-.column__half--small {
-    width: 50%;
+.column {
+    padding-top:1em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    width: 100%;
 }
 @media screen and (min-width: $break-medium) {
     .column {
         float: left;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-        width: 100%;
     }
-    .half {
+    .column--half {
         width: 50%;
     }
-    .third {
+    .column--third {
         width: 33.3333333%;
     }
-    .quarter {
+    .column--quarter {
         width: 25%;
     }
-    .sixth {
+    .column--sixth {
         width: 16.6666667%;
     }
 }
 /* Container */
-.container {
-  padding-top:1em;
-  padding-bottom: 3em;
-}
 .container--border {
   border-bottom: 1px solid $colour-light-grey;
 }
