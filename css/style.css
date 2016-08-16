@@ -114,6 +114,9 @@ body {
   text-align: right; }
 
 /* Spacing */
+.margin-top--none {
+  margin-top: 0; }
+
 .margin-bottom--none {
   margin-bottom: 0; }
 
