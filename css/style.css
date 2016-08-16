@@ -49,7 +49,7 @@ body {
   font-weight: 400;
   font-size: 100%;
   line-height: 1.5; }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     body {
       font-size: 120%; } }
 
@@ -57,35 +57,35 @@ body {
 .heading--xxlarge {
   font-weight: 900;
   line-height: 1; }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     .heading--xxlarge {
       font-size: 4em; } }
 
 .heading--xlarge {
   font-weight: bold;
   line-height: 1.1; }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     .heading--xlarge {
       font-size: 3em; } }
 
 .heading--large {
   font-weight: bold;
   line-height: 1.1; }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     .heading--large {
       font-size: 2em; } }
 
 .heading--medium {
   font-weight: bold;
   line-height: 1.1; }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     .heading--medium {
       font-size: 1.3em; } }
 
 .heading--small {
   font-weight: bold;
   line-height: 1.1; }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     .heading--small {
       font-size: 1.1em; } }
 
@@ -229,7 +229,7 @@ a {
     width: 100%;
     height: 100%;
     padding: 0 5%; } }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   .square__content {
     padding: 8% 13%; } }
 /* Container */
